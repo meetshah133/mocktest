@@ -1,5 +1,5 @@
 # mocktest
-Python mini project
+
 One of the major issue faced by educational institute is taking mocktest of the student. The traditional pen and paper based mocktest is time consuming . Getting the analysis from this mocktest is very difficult . So we have designed a python application to solve this problem.
 Libraries used :
 1.)	SQLITE3 (Database)
