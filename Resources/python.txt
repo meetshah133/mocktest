@@ -1,0 +1,348 @@
+ Is Python case sensitive when dealing with identifiers?
+ yes
+ no
+ machine dependent
+ none of the mentioned
+ 1
+ What is the maximum possible length of an identifier?
+ 31 characters
+ 63 characters
+ 79 characters
+ none of the mentioned
+ 2
+ Which of the following is invalid?
+ _a = 1
+ __a = 1
+ __str__ = 1
+ none of the mentioned
+ 4
+ Which of the following is an invalid variable?
+ my_string_1
+ 1st_string
+ foo
+ _
+ 2
+ Why are local variable names beginning with an underscore discouraged?
+ they are used to indicate a private variables of a class
+ they confuse the interpreter
+ they are used to indicate global variables
+ they slow down execution
+ 1
+ Which of the following is not a keyword?
+ eval
+ assert
+ nonlocal
+ pass
+ 1
+ All keywords in Python are in
+ lower case
+ UPPER CASE
+ Capitalized
+ None of the mentioned
+ 4
+ Which of the following is true for variable names in Python?
+ unlimited length
+ all private members must have leading and trailing underscores
+ underscore and ampersand are the only two special characters allowed
+ none of the mentioned
+ 1
+ Which of the following is an invalid statement?
+ abc = 1,000,000
+ a b c = 1000 2000 3000
+ a,b,c = 1000, 2000, 3000
+ a_b_c = 1,000,000
+ 2
+ Which of the following cannot be a variable?
+ __init__
+ in
+ it
+ on
+ 2
+ Which is the correct operator for power(x^y)?
+ X^y
+ X**y
+ X^^y
+ None of the mentioned
+ 2
+ Which one of these is floor division?
+ /
+ //
+ %
+ None of the mentioned
+ 2
+ What is the order of precedence in python? (i.Parentheses ii.Exponential iii.Division iv.Multiplication v.Addition vi.Subtraction)
+ i,ii,iii,iv,v,vi
+ ii,i,iii,iv,v,vi
+ ii,i,iv,iii,v,vi
+ i,ii,iii,iv,vi,v
+ 1
+ What is answer of this expression, 22 % 3 is?
+ 7
+ 1
+ 0
+ 5
+ 2
+ Operators with the same precedence are evaluated in which manner?
+ Left to Right
+ Right to Left
+ Cant say
+ None of the mentioned
+ 1
+ What is the output of this expression, 3*1**3?
+ 27
+ 9
+ 3
+ 1
+ 3
+ Which one of the following have the same precedence?
+ Addition and Subtraction
+ Multiplication and Division
+ Both a and b
+ None of the mentioned
+ 3
+ Which one of the following have the highest precedence in the expression?
+ Exponential
+ Addition
+ Multiplication
+ Parentheses
+ 4
+ Which of these in not a core datatype?
+ Lists
+ Dictionary
+ Tuples
+ Class
+ 4
+ Given a function that does not return any value, What value is thrown by default when executed in shell.
+ int
+ bool
+ void
+ None
+ 4
+ Following set of commands are executed in shell, what will be the output?(>>>str="hello"|>>>str[:2]|>>>)
+ he
+ lo
+ olleh
+ hello
+ 1
+ Which of the following will run without errors ?
+ round(45.8)
+ round(6352.898,2,5)
+ round()
+ round(7463.123,2,1)
+ 1
+ What is the return type of function id ?
+ int
+ float
+ bool
+ dict
+ 1
+ What error occurs when you execute?(apple = mango)
+ SyntaxError
+ NameError
+ ValueError
+ TypeError
+ 2
+ Which among the following list of operators has the highest precedence? (+, -, **, %, /, <<, >>, |)
+ <<, >>
+ **
+ |
+ %
+ 2
+ In order to store values in terms of key and value we use what core datatype.
+ list
+ tuple
+ class
+ dictionary
+ 4
+ What is the average value of the code that is executed below ?(>>>grade1 = 80|>>>grade2 = 90|>>>average = (grade1 + grade2) / 2)
+ 85
+ 85.1
+ 95
+ 95.1
+ 2
+ Which of the following expressions is an example of type conversion?
+ 4.0 + float(3)
+ 5.3 + 6.3
+ 5.0 + 3
+ 3 + 7
+ 1
+ What is the return value of trunc() ?
+ int
+ bool
+ float
+ None
+ 1
+ What is the output of print 0.1 + 0.2 == 0.3?
+ True
+ False
+ Machine dependent
+ Error
+ 2
+ Which of the following is not a complex number?
+ k = 2 + 3j
+ k = complex(2, 3)
+ k = 2 + 3l
+ k = 2 + 3J
+ 3
+ What is the type of inf?
+ Boolean
+ Integer
+ Float
+ Complex
+ 3
+ What does ~4 evaluate to?
+ -5
+ -4
+ -3
+ +3
+ 1
+ What does ~~~~~~5 evaluate to?
+ +5
+ -11
+ +11
+ -5
+ 1
+ Which of the following is incorrect?
+ x = 0b101
+ x = 0x4f5
+ x = 19023
+ x = 03964
+ 4
+ What is the result of cmp(3, 1)?
+ 1
+ 0
+ True
+ False
+ 1
+ What is the value of the expression: 4+2**5//10
+ 3
+ 7
+ 77
+ 0
+ 2
+ What is the result of the snippet of code shown below if x=1? x<<2
+ 8
+ 1
+ 2
+ 4
+ 4
+ What does 3 ^ 4 evaluate to?
+ 81
+ 12
+ 0.75
+ 7
+ 4
+ The value of the expression: 4 + 3 % 5
+ 4
+ 7
+ 2
+ 0
+ 2
+ Evaluate the expression given below if A= 16 and B = 15.(A % B // A)
+ 0.0
+ 0
+ 1.0
+ 1
+ 2
+ Which of the following operators has its associativity from right to left?
+ +
+ //
+ %
+ **
+ 4
+ What is the value of x if: x = int(43.55+2/2)
+ 43
+ 44
+ 22
+ 23
+ 2
+ What is the value of the following expression? 2+4.00, 2**4.0
+ (6.0, 16.0)
+ (6.00, 16.00)
+ (6, 16)
+ (6.00, 16.0)
+ 1
+ Which of the following is the truncation division operator?
+ /
+ %
+ //
+ |
+ 3
+ What are the values of the following expressions: 2**(3**2), (2**3)**2, 2**3**2
+ 64, 512, 64
+ 64, 64, 64
+ 512, 512, 512
+ 512, 64, 512
+ 4
+ What is the value of the following expression: 8/4/2, 8/(4/2)
+ (1.0, 4.0)
+ (1.0, 1.0)
+ (4.0. 1.0)
+ (4.0, 4.0)
+ 1
+ What is the value of the following expression: float(22//3+3/3)
+ 8
+ 8.0
+ 8.3
+ 8.33
+ 2
+ What is the output of the following expression: print(4.00/(2.0+2.0))
+ Error
+ 1.0
+ 1.00
+ 1
+ 2
+ Consider the expression given below. The value of X is: X = 2+9*((3*12)-8)/10
+ 30.0
+ 30.8
+ 28.4
+ 27.2
+ 4
+ What is the maximum possible length of an identifier?
+ 31 characters
+ 63 characters
+ 79 characters
+ none of the mentioned
+ 2
+ Which of the following is an invalid variable?
+ my_string_1
+ 1st_string
+ foo
+ _
+ 2
+ Which of the following is an invalid statement?
+ abc = 1,000,000
+ a b c = 1000 2000 3000
+ a,b,c = 1000, 2000, 3000
+ a_b_c = 1,000,000
+ 2
+ Which of the following cannot be a variable?
+ __init__
+ in
+ it
+ on
+ 2
+ Is Python case sensitive when dealing with identifiers?
+ yes
+ no
+ machine dependent
+ none of the mentioned
+ 1
+ What is the maximum possible length of an identifier?
+ 31 characters
+ 63 characters
+ 79 characters
+ none of the mentioned
+ 2
+ Which of the following is invalid?
+ _a = 1
+ __a = 1
+ __str__ = 1
+ none of the mentioned
+ 4
+ Which of the following cannot be a variable?
+ __init__
+ in
+ it
+ on
+ 2
